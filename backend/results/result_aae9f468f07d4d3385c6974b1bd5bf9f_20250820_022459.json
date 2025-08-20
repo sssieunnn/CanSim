@@ -1,0 +1,116 @@
+{
+  "report_id": "aae9f468f07d4d3385c6974b1bd5bf9f",
+  "patientData": {
+    "name": "김철수",
+    "age": 65,
+    "gender": "M",
+    "cancerType": "전립선암",
+    "stage": "II",
+    "chemo": "",
+    "temperature": "36.8",
+    "bloodPressure": "120/80",
+    "pulse": 72,
+    "extra": ""
+  },
+  "scenario": {
+    "number": 1,
+    "effect": 24,
+    "duration": 6,
+    "sideEffect": "중간",
+    "_selectedDrug": "도세탁셀"
+  },
+  "report": {
+    "report_id": "aae9f468f07d4d3385c6974b1bd5bf9f",
+    "patient": {
+      "name": "김철수",
+      "age": 65,
+      "gender": "M",
+      "cancerType": "전립선암",
+      "stage": "II",
+      "chemo": "",
+      "temperature": "36.8",
+      "bloodPressure": "120/80",
+      "pulse": 72,
+      "extra": "",
+      "baseImage": null
+    },
+    "plans": [
+      {
+        "name": "도세탁셀",
+        "probability": 24.1,
+        "recommended": false,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      },
+      {
+        "name": "아비라테론 아세테이트(자이티가)",
+        "probability": 23.8,
+        "recommended": false,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      },
+      {
+        "name": "엔잘루타마이드",
+        "probability": 25.8,
+        "recommended": false,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      },
+      {
+        "name": "아팔루타마이드",
+        "probability": 26.4,
+        "recommended": true,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      }
+    ]
+  }
+}

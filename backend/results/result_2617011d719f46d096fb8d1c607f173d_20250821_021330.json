@@ -1,0 +1,113 @@
+{
+  "report_id": "2617011d719f46d096fb8d1c607f173d",
+  "patientData": {
+    "name": "홍길동",
+    "age": 54,
+    "gender": "M",
+    "cancerType": "폐암",
+    "stage": "II",
+    "chemo": "",
+    "temperature": "36.9",
+    "bloodPressure": "130/80",
+    "pulse": 70,
+    "extra": ""
+  },
+  "scenario": {
+    "effect": 26,
+    "_selectedDrug": "면역관문억제제"
+  },
+  "report": {
+    "report_id": "2617011d719f46d096fb8d1c607f173d",
+    "patient": {
+      "name": "홍길동",
+      "age": 54,
+      "gender": "M",
+      "cancerType": "폐암",
+      "stage": "II",
+      "chemo": "",
+      "temperature": "36.9",
+      "bloodPressure": "130/80",
+      "pulse": 70,
+      "extra": "",
+      "baseImage": null
+    },
+    "plans": [
+      {
+        "name": "면역관문억제제",
+        "probability": 26.4,
+        "recommended": true,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      },
+      {
+        "name": "젬시타빈",
+        "probability": 25.8,
+        "recommended": false,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      },
+      {
+        "name": "시스플라틴",
+        "probability": 24.1,
+        "recommended": false,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      },
+      {
+        "name": "카보플라틴",
+        "probability": 23.8,
+        "recommended": false,
+        "schedule": [
+          "1주차",
+          "2주차",
+          "3주차",
+          "4주차",
+          "5주차",
+          "6주차",
+          "7주차",
+          "8주차",
+          "9주차",
+          "10주차",
+          "11주차",
+          "12주차"
+        ]
+      }
+    ]
+  }
+}
