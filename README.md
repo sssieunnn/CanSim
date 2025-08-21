@@ -124,11 +124,11 @@ get_simulation_data.py : 시뮬레이션 결과를 주차별 이미지/점수 �
 
 ## 📸 시연 화면
 
-![시작화면](./undefined- (3).png)
-![환자 데이터 입력](./undefined- (2).png)
-![가상환자 생성](./undefined- .png )
-![시뮬레이션](./undefined- (1).png)
-![시뮬레이션 결과 요약](./undefined- (4).png)
+![시작 화면](./demo_home.png)
+![환자 데이터 입력](./demo_patient_input.png)
+![가상 환자 생성](./demo_virtual_patient.png)
+![시뮬레이션](./demo_simulation.png)
+![시뮬레이션 결과 요약](./demo_summary.png)
 
 ---
 ## 🎥 시연 영상
