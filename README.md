@@ -121,10 +121,20 @@ get_simulation_data.py : 시뮬레이션 결과를 주차별 이미지/점수 �
 - 인터페이스 개선
 
 ---
+
+## 📸 시연 화면
+
+![시작화면](./undefined- (3).png)
+![환자 데이터 입력](./undefined- (2).png)
+![가상환자 생성](./undefined- .png )
+![시뮬레이션](./undefined- (1).png)
+![시뮬레이션 결과 요약](./undefined- (4).png)
+
+---
 ## 🎥 시연 영상
 [![Watch the video](https://img.youtube.com/vi/AZa5saE7sR8/0.jpg)](https://youtu.be/AZa5saE7sR8)
 
-
+---
 
 
 
