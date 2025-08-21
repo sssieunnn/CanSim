@@ -17,25 +17,25 @@ CT/MRI 영상 및 바이탈 데이터를 입력받아, 다양한 약제 반응�
 
 ### <CanSim_model>
 해당 모델은 **이미지 데이터와 Tabular Data**를 함께 입력받아 약물의 반응을 예측하는 구조입니다.  
-- 이미지 처리: 사전 학습된 **ResNet18**을 활용, 마지막 Fully Connected Layer는 제거하고 **backbone(특징 추출기)** 으로만 사용  
-- Tabular Data: 별도의 **Linear Layer**로 벡터 변환  
-- 결합 방식: **Late Fusion**을 적용하여 두 feature를 합친 뒤, Fully Connected Layer를 거쳐 각 약물별 치료 효과(Logits)를 출력  
+- 이미지 처리: 사전 학습된 ResNet18을 활용, 마지막 Fully Connected Layer는 제거하고 backbone(특징 추출기) 으로만 사용  
+- Tabular Data: 별도의 Linear Layer로 벡터 변환  
+- 결합 방식: Late Fusion을 적용하여 두 feature를 합친 뒤, Fully Connected Layer를 거쳐 각 약물별 치료 효과(Logits)를 출력  
 
 ### <model_train>
-모델 학습은 **100 Epoch** 동안 진행되었습니다.  
-- 평균 Validation Loss: **1.3865**  
-- 평균 Accuracy: **0.2483**  
-- 평균 F1-Score: **0.1755**  
+모델 학습은 100 Epoch 동안 진행되었습니다.  
+- 평균 Validation Loss: 1.3865  
+- 평균 Accuracy: 0.2483 
+- 평균 F1-Score: 0.1755 
 
-초기에는 지표가 낮았으나, 학습이 진행되며 **안정적으로 수렴**하는 모습을 보였습니다.  
+초기에는 지표가 낮았으나, 학습이 진행되며 안정적으로 수렴하는 모습을 보였습니다.  
 특히 F1-Score는 **0.1 수준 → 최종 0.205**까지 개선되었고, Class 불균형이 있음에도 일정 수준의 예측 성능을 달성했습니다.  
 
 ### <create_report>
-학습된 모델은 실제 환자의 **CT/MRI Image + Tabular Data**를 입력받아,  
-- **12주 기준 병변 추이 예측**  
-- **약물별 치료 효과 계산**  
-- **가장 효과적인 약물 추천**  
-- 최종적으로 **PDF Report 생성**  
+학습된 모델은 실제 환자의 CT/MRI Image + Tabular Data를 입력받아,  
+- 12주 기준 병변 추이 예측  
+- 약물별 치료 효과 계산 
+- 가장 효과적인 약물 추천
+- 최종적으로 PDF Report 생성 
 
 까지 수행합니다. 
 
@@ -119,16 +119,6 @@ get_simulation_data.py : 시뮬레이션 결과를 주차별 이미지/점수 �
 - 모델 성능 개선 (Class imbalance 보정, Multi-modal 학습 고도화)
 - PDF 리포트 자동 생성 기능 강화
 - 인터페이스 개선
-
----
-
-## 📸 시연 화면
-
-![시작 화면](./demo_home.png)
-![환자 데이터 입력](./demo_patient_input.png)
-![가상 환자 생성](./demo_virtual_patient.png)
-![시뮬레이션](./demo_simulation.png)
-![시뮬레이션 결과 요약](./demo_summary.png)
 
 ---
 ## 🎥 시연 영상
